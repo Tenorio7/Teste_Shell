@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+
+
+
+
+
+#nome="Antonio Tenorio"
+#idade="21 anos"
+#RG="931093901"
+
+
+#echo "O seu nome é: $nome"
+#echo "A sua idade é: $idade"
+#echo "O seu RG é: $RG"
+
+
+set -x  ##serve para debugar o programa 
+
+nome="A"
+nome="B"
+nome="c"
+
+echo "Seu nome é $nome"

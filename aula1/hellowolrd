@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+#echo "Hello World, Quebrei a maldição!"
+
+echo "Entrando no diretorio:"
+cd /home/tenorio
+
+echo "Aonde eu estou?"
+pwd
+
+echo "Listando o que tem dentro deste diretorio"
+ls
+

@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+
+echo -e "Qual o seu nome?\n"
+read nome
+
+
+
+echo -e "Qual sua altura?\n"
+read altura
+
+
+echo -e "Qual a sua escolaridade?\n"
+read escolaridade
+
+
+echo -e "O Seu nome é: $nome \n"
+echo -e "A sua altura é: $altura \n"
+echo -e "A sua escolaridade é: $escolaridade \n"
+
+ 
+
+#delimitador:
+read -d @ nomedavarivavel # o "@" pode ser qualquer caracter
+
+#shell interativo(autocomplete)
+read -e
+
+#colocar tempo na resposta
+read -t tempo_resposta varivavel
+
+#Delimitar o texto que vai aparecer e qual varivável armazenar
+read -p "Qual o seu nome?" nome
+
